@@ -16,8 +16,8 @@ console.log(status);
 let name = "Bipin";
 name = "CR7" //No Error
 {
-    let age = 19
+    let age = 19;
     console.log(age); //No error
 }
-console.log(name)
+console.log(name);
 //console.log(age) //error
