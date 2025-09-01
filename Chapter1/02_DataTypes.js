@@ -29,3 +29,7 @@ function detail(){
     console.log(name+age);
 }
 detail();
+
+//new Date()
+console.log(new Date().toLocaleDateString());
+console.log(new Date().toLocaleTimeString());
