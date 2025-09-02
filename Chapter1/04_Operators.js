@@ -17,3 +17,9 @@ console.log("9 > 7 : "+(9 > 7));
 console.log("9 < 7 : "+(9 < 7));
 console.log("7 >= 7 : "+(7 >= 7));
 console.log("9 <= 12 : "+(9 <= 12));
+
+//Logical
+console.log("Logical Operators:");
+console.log("True and False : "+(true && false));
+console.log("True or False : "+(true || false));
+console.log("Not True : "+(!true));
