@@ -23,3 +23,7 @@ console.log("Logical Operators:");
 console.log("True and False : "+(true && false));
 console.log("True or False : "+(true || false));
 console.log("Not True : "+(!true));
+
+//Boolean Logical
+let name = "Bipin";
+console.log(!!name)
