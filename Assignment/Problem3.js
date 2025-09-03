@@ -1,0 +1,12 @@
+const zoo = [];
+zoo.push("Elephants");
+zoo.push("Lions");
+zoo.push("Tigers");
+console.log(`All Season:${zoo}`);
+zoo.push("Hippos");
+zoo.push("Crocodiles");
+console.log(`\nSummer Season:${zoo}`);
+zoo.splice(3,2,"Polar Bears","Penguins");
+console.log(`\nWinter Season:${zoo}`);
+zoo.splice(3,2,"Zebras");
+console.log(`\nMid Season:${zoo}`);
