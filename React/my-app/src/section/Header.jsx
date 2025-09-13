@@ -1,6 +1,8 @@
+import myHead from '../style/Header.module.css';
+
 const Header = () => {
   return (
-    <header className="header">
+    <header className={myHead.header}>
       <h1>My App</h1>
         <nav>
           <ul>
