@@ -26,3 +26,17 @@
   color: #666;
   max-width: 600px;
 }
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #ff0800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero button:hover {
+  background-color: #000000;
+  color: #ff0800;
+}
