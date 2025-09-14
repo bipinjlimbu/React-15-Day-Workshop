@@ -1,13 +1,13 @@
 .header {
-  background-color: #f0f0f0;
-  border-bottom: 1px solid #ccc;
+  background-color: #000000;
+  border-bottom: 1px solid #1eff00;
   padding: 10px 0;
-  text-align: center;
+  text-align: center;   
 }
 .header h1 {
   margin: 0;
   font-size: 2em;
-  color: #333;
+  color: #ffffff;
 }
 .header nav {
   margin-top: 10px;
@@ -22,7 +22,7 @@
 }
 .header a {
   text-decoration: none;
-  color: #007bff;
+  color: #ffffff;
 }
 .header a:hover {
   text-decoration: underline;
