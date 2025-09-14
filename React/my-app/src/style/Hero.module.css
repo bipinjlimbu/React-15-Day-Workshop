@@ -3,18 +3,16 @@
   max-width: 100vw;
   height: 100vh;
   min-height: 100vh;
-  margin-left: 0;
-  margin-right: 0;
-  background-color: #bbff00;
+  background-color: white;
   border: 1px solid #ff1100;
-  border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  margin: 0;
   padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* Add this line to center vertically */
 }
 .hero h2 {
   margin-bottom: 10px;
@@ -37,6 +35,6 @@
   cursor: pointer;
 }
 .hero button:hover {
-  background-color: #000000;
+  background-color: #ffffff;
   color: #ff0800;
 }
