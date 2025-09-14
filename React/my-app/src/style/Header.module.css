@@ -45,3 +45,18 @@
 .nav a:hover {
   text-decoration: underline;
 }
+
+.header button {
+  padding: 8px 16px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #2600ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #000000;
+  color: #2600ff;
+}

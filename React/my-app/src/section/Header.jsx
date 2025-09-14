@@ -1,3 +1,4 @@
+import Button from '../components/button';
 import myHead from '../style/Header.module.css';
 
 const Header = () => {
@@ -10,6 +11,7 @@ const Header = () => {
             <li><a href="#About">About</a></li>
             <li><a href="#Contact">Contact</a></li>
           </ul>
+          <Button label="Sign In" onClick={() => alert('Sign In clicked!')} />
         </nav>
     </header>
   );
