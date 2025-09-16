@@ -11,7 +11,7 @@ const Header = () => {
             <li><a href="#About">About</a></li>
             <li><a href="#Contact">Contact</a></li>
           </ul>
-          <Button label="Sign In" onClick={() => alert('Sign In clicked!')} />
+          <Button onClick={() => alert('Sign In clicked!')}>Sign In</Button>
         </nav>
     </header>
   );

@@ -1,7 +1,7 @@
-const Button = ({ label, onClick }) => {
+const Button = ({ children, onClick }) => {
   return (
     <button onClick={onClick}>
-      {label}
+      {children}
     </button>
   );
 };
