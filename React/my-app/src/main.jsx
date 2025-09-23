@@ -5,9 +5,10 @@ import { App } from './App'
 import Login from './pages/login'
 import Counter from './pages/Counter'
 import Door from './components/Door'
+import TodoList from './components/GetDoor'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Door/>
+    <TodoList/>
   </StrictMode>,
 )
