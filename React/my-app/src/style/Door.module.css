@@ -1,0 +1,18 @@
+.door {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+.light {
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+}
+.dark {
+    color: black;
+    text-shadow: 0 0 10px black;
+}

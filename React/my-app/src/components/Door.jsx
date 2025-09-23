@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import myDoor from "../style/Door.module.css"
 
 const Door = () => {
     const [doorOpen, setDoorOpen] = useState(false);
@@ -12,12 +12,12 @@ const Door = () => {
         setDoorOpen(!doorOpen);
     }
     return (
-        <div>
+        <div className={myDoor.door}>
             {
                 lightOn ? (
-                    <h1>Light</h1>
+                    <h1 className={myDoor.light}>Light</h1>
                 ) : (
-                    <h1>Dark</h1>
+                    <h1 className={myDoor.dark}>Dark</h1>
                 )
             }
             <button onClick={handleDoorOpen}>{doorOpen ? "Close Door" : "Open Door"}</button>
